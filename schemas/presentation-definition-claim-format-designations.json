@@ -50,6 +50,17 @@
           "items": { "type": "string" }
         }
       }
+    },
+    "dc+sd-jwt-vc": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "alg": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        }
+      }
     }
   }
 }

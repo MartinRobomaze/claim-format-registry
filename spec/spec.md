@@ -81,6 +81,7 @@ Maintainers reserve the right to reject, remove, or delay acceptance of PRs.
 |`ac_vp`|"AnonCreds VP"|This format is for Verifiable Presentations using AnonCreds. AnonCreds is a VC format that adds important privacy-protecting ZKP (zero-knowledge proof) capabilities to the core VC assurances.|See [[ref:AnonCreds]]|n/a|
 |`mso_mdoc`|"mDoc"|The format is defined by ISO/IEC 18013-5:2021 [[ref:ISO.18013-5]] whcih defines a mobile driving license (mDL) Credential in the mobile document (mdoc) format. Although ISO/IEC 18013-5:2021 [[ref:ISO.18013-5]] is specific to mobile driving licenses (mDLs), the Credential format can be utilized with any type of Credential (or mdoc document types).|See [[ref:ISO.18013-5]], [[ref:ISO.18013-7]]|n/a|
 |`sd_jwt`|"SD-JWT"|The format is a Selective Disclosure JSON Web Token (SD-JWT). It allows for selective disclosure of claims, meaning that only a subset of the claims contained within the JWT is disclosed during the presentation, enhancing privacy. This is achieved by using cryptographic mechanisms that enable the verifier to confirm the integrity and authenticity of the disclosed claims without needing to see the entire set of claims.|See [[ref:SD-JWT]]|n/a|
+|`dc+sd-jwt-vc`|"SD-JWT VC"|The format is a Selective Disclosure JSON Web Token (SD-JWT) based Verifiable Credential specified by the [[ref:SD-JWT-VC]] Data model specification.|See [[ref:SD-JWT-VC]]|n/a|
 
 ## JSON Schemas
 
@@ -125,3 +126,6 @@ Maintainers reserve the right to reject, remove, or delay acceptance of PRs.
 
 [[def:SD-JWT]]
 ~ [Selective Disclosure for JWTs (SD-JWT)](https://datatracker.ietf.org/doc/draft-ietf-oauth-selective-disclosure-jwt/). Daniel Fett, Kristina Yasuda, Brian Campbell. Status: Internet-Draft.
+
+[[def:SD-JWT-VC]]
+~ [SD-JWT-based Verifiable Credentials (SD-JWT VC)](https://datatracker.ietf.org/doc/draft-ietf-oauth-sd-jwt-vc/). Oliver Terbu, Daniel Fett, Brian Campbell. Status: Internet Draft.
